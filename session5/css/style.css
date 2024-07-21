@@ -1,0 +1,216 @@
+/*div{
+    border: 3px solid blue;
+   /* width: 100%;*/
+    /*margin: 1.5%;*//*لحد هنا دا الجزء الخاص بال 3 صور وتحتهم براجراف*/
+   /* box-shadow: 0 0 2px #c5c2c2;*/
+   /* padding: 1%;
+    width: 30%;
+
+    
+}
+div img{
+    max-width: 100%;
+}
+section{
+    /*width: 30%;*/
+   /* display: flex;
+    flex-direction: row; /*column, column-reverse, row-reverse*//*دا الجزء الخاص بالارقام*/
+    /*height:100vh*/
+   /* flex-wrap: wrap;
+    justify-content: space-around;/*flex-start, flex-end, center, space-around, space-between*/
+    /*align-items: stretch;/*flex-end, flex-start, center, stretch*/
+/*}*/
+/**{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 30%;
+    margin: 0 auto;/*فوق وتحت بزيرو ويمين وشمال اوتو
+   
+}
+.display-flex{
+    display: flex;
+    border: solid 2px rgb(16, 9, 112);
+    /*align-items: center;
+}
+img{
+    max-width: 100%;
+    height: 100%;
+
+}
+.left-hand{
+width: 30%;
+/*flex-grow: 1
+}
+.right-hand{
+width: 70%;
+/*flex-grow:3
+align-self: center;/*بقوله يعملي انا الاين وملكش دعوه باللي حواليا
+padding-left: 1.2%;
+}
+.container{
+    height: 20rem;
+    width: 90%;
+    margin:0 auto;
+    border: 2px solid blue;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    opacity: 0.1;
+}
+.c2{
+    color: black;
+}
+.abs{
+    position: relative;
+}
+.parent{
+    height: 20rem;/*دا طول الصوره 
+    width: 40%;
+    margin: 0 auto;
+    background-image: url(../high-angle-view-houses-snowy-mountain-landscape.jpg);
+    background-size: cover;
+    position: relative;
+
+}*/
+.parent{
+    
+    width: 20%;
+    margin: 0 auto;
+    background-color: rgb(242, 236, 236);
+    /*position: relative;*/
+    border-radius: 10%;
+    padding: 0.2rem;
+}
+/*.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}*/
+.border{
+    border-style: dotted;
+    border-color: rgb(18, 4, 4);
+    border-radius:10% ;
+    margin: 0 auto;
+    
+    width: 16rem;
+    padding: 0; 
+    /*margin: 2%;*/
+}
+
+.bottom{
+    border-bottom: dotted;
+ margin:9% ;
+}
+.icon{
+    border-radius: 50% 50% 50% 50%;
+
+}
+img{
+    max-width: 100%;
+    height: 3.5rem;
+    /*margin-bottom: 4rem;*/
+    width: 76%;
+    
+}
+/*.display-flex{
+    display: flex;
+}*/
+.left-hand{
+    width: 30%;
+    align-self: center;
+}
+.right-hand{
+    width: 70%;
+    align-self: center;
+    margin: 0;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 90%;
+    margin: 2%;
+}
+.na{
+    margin-right: 30px;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #646262;
+    padding: 10px 20px;
+}
+
+.left {
+    color: black;
+    font-size: 24px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.list li {
+    position: relative;
+}
+
+.list a {
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.diiv {
+    display: flex;
+    align-items: center;
+}
+
+.request {
+    background-color: #0e0d0d;
+    color: rgb(249, 246, 246);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius:10% 20% 10% 20%;
+}
+body { 
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+   overflow: hidden;
+   
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+   
+}
+.span {
+    display: inline-block;
+    background-color: #e0f7e9;
+    color: #086020;
+    padding: 5px 10px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.prr {
+    color: #676565;
+    margin: 10px 0;
+}
